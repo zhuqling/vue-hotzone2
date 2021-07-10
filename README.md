@@ -17,16 +17,16 @@ A vue2 hotzone component
 ## Install
 
 ```bash
-npm i vue-hotzone --save
+npm i vue-hotzone2 --save
 # or
-yarn add vue-hotzone
+yarn add vue-hotzone2
 ```
 
 ## Use
 
 ```js
 // Use in component
-import hotzone from 'vue-hotzone'
+import hotzone from 'vue-hotzone2'
 
 export default {
   components: {
@@ -35,7 +35,7 @@ export default {
 }
 
 // Use in global
-import hotzone from 'vue-hotzone'
+import hotzone from 'vue-hotzone2'
 
 Vue.component(hotzone.name, hotzone)
 
